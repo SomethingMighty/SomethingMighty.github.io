@@ -40,7 +40,7 @@ p {
  	body {
   }
  	.blurb{
-		margin-top: 40%;
+		margin-top: 50%;
 	}
   	h1{
   		font-size: 48px;
@@ -52,7 +52,7 @@ p {
   		font-size: 14px;
   	}
  	.footer, .push {
-  		height:100px;
+  		height:150px;
   		text-align: bottom;
 	}
 }
