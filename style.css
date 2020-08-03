@@ -6,17 +6,13 @@ body {
 }
 .container {
   height: 100%;
-  margin-bottom: -10%;
+  margin: auto;
   position: relative;
 }
 
 .blurb{
-  margin: 0;
-  padding-top; 20%
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -43,5 +39,6 @@ p {
 }
 
 .footer, .push {
-  height:10%;
+  height:50px;
+  text-align: bottom;
 }
