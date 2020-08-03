@@ -7,7 +7,17 @@ body {
 .container {
   min-height: 100%;
   margin-bottom: -50px;
+  position: relative;
 }
+
+.blurd{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 h1 {
   color: #e34819;
   font-family: 'Poppins';
