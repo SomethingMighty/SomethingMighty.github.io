@@ -2,19 +2,13 @@
 body {
   background-color: #e9f2f1;
   height: 100%;
-  margin: 0;
 }
 .container {
-  height: 100%;
-  margin: auto;
-  position: relative;
-}
 
+}
 .blurb{
-    margin-left: auto;
-    margin-right: auto;
+	margin-top: 24%;
 }
-
 h1 {
   color: #e34819;
   font-family: 'Poppins';
@@ -23,7 +17,7 @@ h1 {
   text-align: center;
 }
 h2 {
-   color: #e34819;
+  color: #e34819;
   font-family: 'Poppins';
   font-weight: 200;
   font-size: 32px;
@@ -33,12 +27,32 @@ h2 {
 p {
   color:#2e2e2e;
   font-family: 'Poppins';
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 200;
   text-align: center;
 }
-
 .footer, .push {
-  height:50px;
+  height:150px;
   text-align: bottom;
+}
+
+@media only screen and (max-width: 600px) {
+ 	body {
+  }
+ 	.blurb{
+		margin-top: 40%;
+	}
+  	h1{
+  		font-size: 48px;
+  	}
+  	h2{
+  		font-size: 24px;
+  	}
+  	p{
+  		font-size: 14px;
+  	}
+ 	.footer, .push {
+  		height:100px;
+  		text-align: bottom;
+	}
 }
