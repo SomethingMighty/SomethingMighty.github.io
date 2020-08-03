@@ -7,10 +7,8 @@ body {
   min-height: 100%;
 }
 .container {
-  flex: 1;
-  padding: 20px;
-  margin: auto;
-  width: 50%;
+  min-height: 100%;
+  margin-bottom: -50px;
 }
 h1 {
   color: #e34819;
@@ -21,18 +19,19 @@ h1 {
 h2 {
    color: #e34819;
   font-family: 'Poppins';
-  font-weight: Light;
+  font-weight: Extra-Light;
   font-size: 32px;
   text-align: center;
 }
 
 p {
-  color:#e34819;
+  color:#2e2e2e;
   font-family: 'Poppins';
   font-size: 14px;
   text-align: center;
 }
 
 #footer {
+  height:50px
   padding: 20px;
 }
