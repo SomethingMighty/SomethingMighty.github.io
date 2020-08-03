@@ -2,8 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 body {
   background-color: #e9f2f1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 .container {
+  flex: 1;
+  padding: 20px;
   margin: auto;
   width: 50%;
 }
@@ -26,4 +31,8 @@ p {
   font-family: 'Poppins';
   font-size: 14px;
   text-align: center;
+}
+
+#footer {
+  padding: 20px;
 }
