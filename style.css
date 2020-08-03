@@ -2,6 +2,10 @@
 body {
   background-color: #e9f2f1;
 }
+.container {
+  margin: auto;
+  width: 50%;
+}
 h1 {
   color: #e34819;
   font-family: 'Poppins';
